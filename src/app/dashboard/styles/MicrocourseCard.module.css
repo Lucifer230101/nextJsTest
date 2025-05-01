@@ -1,0 +1,35 @@
+.card {
+  background-color: #2a2a40;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.image {
+  margin: 0 auto;
+}
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.subtitle {
+  color: #aaa;
+  font-size: 14px;
+}
+.description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+.button {
+  width: 80%;
+  padding: 10px;
+  background: linear-gradient(to right, #fca65e, #b34700);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  transition: background 0.5s ease;
+  font-size: 18px;
+}
+.button:hover {
+  background: linear-gradient(to right, #f97316, #7c2d12); /* deeper orange shades */
+}
