@@ -26,7 +26,7 @@ export default function HomePage() {
       <section style={{ marginBottom: '2rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: '2rem', color: '#fca65e' }}>Welcome to NEXAURA</h1>
         <p style={{ maxWidth: '600px', margin: '0.5rem auto' }}>
-          Level up your skills with bite-sized courses and personalized AI guidance.
+          Level Up your skills with bite-sized courses and personalized AI guidance.
         </p>
       </section>
 
