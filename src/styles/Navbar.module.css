@@ -25,11 +25,13 @@
   color: #ffffff;
   text-decoration: none;
   font-size: 1rem;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .navLinks li a:hover {
   color: #fca65e;
+  transform: scale(1.05);
 }
 
 /* Hamburger icon hidden on large screens */
