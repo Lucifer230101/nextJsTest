@@ -68,47 +68,12 @@
   background: linear-gradient(to right, #2563eb, #1e40af);
 }
 
-.imageContainer {
-  perspective: 1000px;
-  perspective-origin: center;
-}
-
-.gradientBox {
-  position: relative;
-  width: 200px;
-  height: 250px;
-  border-radius: 12px;
-  /* background: linear-gradient(145deg, #1c1c2e, #2e2e45); */
-  background-color: #1c1c2e;
-  box-shadow: 20px 20px 40px #141421, -20px -20px 40px #2a2a3f;
-  transform-style: preserve-3d;
-  z-index: -1;
-  transform: rotateX(6deg) rotateY(6deg);
-  overflow: hidden;
-}
-
-.gloss {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background: linear-gradient(
-    145deg,
-    rgba(255, 255, 255, 0.12),
-    rgba(255, 255, 255, 0)
-  ); */
-  background-color: #1c1c2e;
-  border-radius: 12px;
-  z-index: 0;
-}
-
 .image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  z-index: 1;
+  z-index: 0;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }

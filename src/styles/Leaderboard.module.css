@@ -1,18 +1,69 @@
 .container {
-    padding: 20px;
-    color: white;
-  }
-  
-  .list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .card {
-    background-color: #1f1f2e;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  }
-  
+  padding: 40px 20px;
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fca65e;
+  text-shadow: 1px 1px 5px rgba(252, 166, 94, 0.2);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background: linear-gradient(135deg, #23243b, #2f2f4f);
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(252, 166, 94, 0.3);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid #fca65e;
+}
+
+.name {
+  font-size: 1.2rem;
+  color: #fca65e;
+}
+
+.skills {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 4px;
+}
+
+.xpBadge {
+  background: #fca65e;
+  color: #1f1f2e;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 0 10px rgba(252, 166, 94, 0.4);
+}

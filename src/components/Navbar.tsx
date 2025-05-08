@@ -20,12 +20,12 @@ export default function Navbar() {
         <span className={styles.bar}></span>
       </div>
       <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ""}`}>
-        <li><Link href="/" className={styles.link}>Home</Link></li>
-        <li><Link href="/dashboard" className={styles.link}>Dashboard</Link></li>
-        <li><Link href="/" className={styles.link}>Courses</Link></li>
-        <li><Link href="/leaderboard" className={styles.link}>Leaderboard</Link></li>
-        <li><Link href="/management" className={styles.link}>Management</Link></li>
-        <li><Link href="/contact" className={styles.link}>Contact</Link></li>
+        <li><Link href="/" className={styles.link} onClick={toggleMenu}>Home</Link></li>
+        <li><Link href="/dashboard" className={styles.link} onClick={toggleMenu}>Dashboard</Link></li>
+        <li><Link href="/" className={styles.link} onClick={toggleMenu}>Courses</Link></li>
+        <li><Link href="/leaderboard" className={styles.link} onClick={toggleMenu}>Leaderboard</Link></li>
+        <li><Link href="/management" className={styles.link} onClick={toggleMenu}>Management</Link></li>
+        <li><Link href="/contact" className={styles.link} onClick={toggleMenu}>Contact</Link></li>
       </ul>
     </nav>
   );
